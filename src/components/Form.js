@@ -68,7 +68,6 @@ const Formk = () => {
             )}
         </Formik>
         {/* 2day */}
-        <Typography>Thanks bro</Typography>
         <Typography>Welcome</Typography>
         </div>
   )
