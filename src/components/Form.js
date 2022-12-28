@@ -4,6 +4,7 @@ import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import { Formik,Form,Field } from 'formik';
 import {object,string }from 'yup';
+import { Typography } from '@mui/material';
 
 const initialValues ={
     email:"",
@@ -66,6 +67,9 @@ const Formk = () => {
             </Form>
             )}
         </Formik>
+        {/* 2day */}
+        <Typography>Thanks bro</Typography>
+        <Typography>Welcome</Typography>
         </div>
   )
 }
